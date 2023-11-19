@@ -2,17 +2,17 @@
 
 ## Kamila Begimkulova
 
-### Contact information:
+## Contact information:
 
-**Location:** Tashkent, Uzbekistan
-**Phone:** +998 33 880-26 56
-**Email:** cuttlefish93@gmail.com
-**Telegram:** @cuttlefish93
-**Github:** [cuttlefish93](https://github.com/cuttlefish93)
+- **Location:** Tashkent, Uzbekistan
+- **Phone:** +998 33 880-26 56
+- **Email:** cuttlefish93@gmail.com
+- **Telegram:** @cuttlefish93
+- **Github:** [cuttlefish93](https://github.com/cuttlefish93)
 
 ---
 
-### About Me:
+## About Me:
 
 I have a lot of experience in sales and customer service but recently decided to change my profession and field of activity.
 
@@ -22,7 +22,7 @@ Now I'm on my way to become a frontend developer.
 
 ---
 
-### Skills:
+## Skills:
 
 - HTML, Pug
 - CSS, SASS
@@ -33,7 +33,7 @@ Now I'm on my way to become a frontend developer.
 
 ---
 
-### Code Examples:
+## Code Examples:
 
 **Codewars** - Give me a Diamond, _6kyu_
 
@@ -64,7 +64,7 @@ function diamond(n){
 
 ---
 
-### Work Experience:
+## Work Experience:
 
 1. **Brain Games** Project - [link to github](https://github.com/cuttlefish93/frontend-project-44)
    - used skills: Javascript, NodeJS
@@ -73,7 +73,7 @@ function diamond(n){
 
 ---
 
-### Education:
+## Education:
 
 - **Gzhelsky State University** - Incomplete education at bachelor's degree level (3rd year), tourism and management program
 - Courses:
@@ -83,7 +83,7 @@ function diamond(n){
 
 ---
 
-### Languages:
+## Languages:
 
 - **Russian** - _native_
 - **English** - _C1 level_
