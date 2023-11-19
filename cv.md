@@ -2,8 +2,6 @@
 
 ## Kamila Begimkulova
 
----
-
 ### Contact information:
 
 **Location:** Tashkent, Uzbekistan
