@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CV - Kamila Begimkulova</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div class="personal-info">
+		<img src="avatar.jpeg" alt="Personal photo">
+		<h2>Kamila Begimkulova</h2>
+	</div>
+	<div class="contacts">
+		<h2 class="title">Contact information:</h2>
+		<ul>
+			<li><span class="bold">Location:</span>Tashkent, Uzbekistan</li>
+			<li><span class="bold">Phone:</span>+998 33 880-26 56</li>
+			<li><span class="bold">Email:</span>cuttlefish93@gmail.com</li>
+			<li><span class="bold">Telegram:</span>@cuttlefish93</li>
+			<li>
+				<span class="bold">Github:</span>
+				<a href="https://github.com/cuttlefish93" target="_blank">cuttlefish93</a>
+			</li>
+		</ul>
+	</div>
+	<div class="about-me">
+		<h2 class="title">About Me:</h2>
+		<p>
+			I have a lot of experience in sales and customer service but recently
+			decided to change my profession and field of activity.
+		</p>
+		<p>
+			I like frontend development for the opportunity to constantly evolve and
+			learn, develop cool and useful projects and self-realization.
+		</p>
+		<p>Now I'm on my way to become a frontend developer.</p>
+	</div>
+	<div class="skills">
+		<h2 class="title">Skills:</h2>
+		<ul>
+			<li>HTML, Pug</li>
+			<li>CSS, SASS</li>
+			<li>Javascript</li>
+			<li>Gulp, Webpack</li>
+			<li>Git, Github</li>
+			<li>Application testing: Jest, TDD</li>
+		</ul>
+	</div>
+	<div class="code-examples">
+		<h2 class="title">Code Examples:</h2>
+		<p>
+			<span class="bold">Codewars</span>
+			- Give me a Diamond,
+			<span class="italic">6kyu</span>
+		</p>
+		<pre>
+			<code>
+	function diamond(n){
+
+		if(n &lt;= 0 || n % 2 === 0) {
+			return null;
+		}
+
+		let diamond = '*';
+		let newlineChar = '\n';
+		let str = '';
+
+		for(let i = 1; i &lt;= n; i += 2){
+			diamond = diamond.repeat(i);
+			str = `${str}${' '.repeat((n - i) / 2)}${diamond}${newlineChar}`;
+			diamond = '*';
+		}
+
+		for(let i = n - 2; i &gt;= 1; i -= 2){
+			diamond = diamond.repeat(i);
+			str = `${str}${' '.repeat((n - i) / 2)}${diamond}${newlineChar}`;
+			diamond = '*';
+		}
+
+		return str;
+	}
+			</code>
+		</pre>
+	</div>
+	<div class="work-experience">
+		<h2 class="title">Work Experience:</h2>
+		<ol>
+			<li>
+				<span class="bold">Brain Games</span>
+				Project -
+				<a href="https://github.com/cuttlefish93/frontend-project-44" target="_blank">link to github</a>
+				<ul>
+					<li>used skills: Javascript, NodeJS</li>
+				</ul>
+			</li>
+			<li>
+				<span class="bold">Difference Calculator</span>
+				Project -
+				<a href="https://github.com/cuttlefish93/frontend-project-46" target="_blank">link to github</a>
+				<ul>
+					<li>used skills: HTML, CSS, Javascript, NodeJS</li>
+				</ul>
+			</li>
+		</ol>
+	</div>
+	<div class="education">
+		<h2 class="title">Education</h2>
+		<ul>
+			<li>
+				<span class="bold">Gzhelsky State University</span>
+				- Incomplete education at bachelor's degree level (3rd year), tourism
+				and management program
+			</li>
+			<li>
+				Courses:
+				<ul>
+					<li>
+						<a href="https://practicum.yandex.ru/frontend-developer/?from=catalog" target="_blank">Yandex.Praktikum</a>
+						- Frontend Developer (completed)
+					</li>
+					<li>
+						<a href="https://hexlet.io/programs/frontend" target="_blank">Hexlet school</a>
+						- Frontend Developer (in progress)
+					</li>
+					<li>
+						<a href="https://rs.school/js/" target="_blank">RS School</a>
+						- Javascript/Front-end (in progress)
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div class="languages">
+		<h2 class="title">Languages:</h2>
+		<ul>
+			<li><span class="bold">Russian</span> - native</li>
+			<li><span class="bold">English</span> - C1 level</li>
+			<li><span class="bold">Korean</span> - beginner level</li>
+		</ul>
+	</div>
+</body>
+
+</html>
