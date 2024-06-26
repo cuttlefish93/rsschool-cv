@@ -1,7 +1,5 @@
 ## Kamila Begimkulova
 
----
-
 ### Contacts
 
 - Location: Tashkent, Uzbekistan
@@ -46,8 +44,6 @@ return sum === value ? true : false;
 ---
 
 ## Experience
-
----
 
 ### Education
 
