@@ -154,15 +154,15 @@
 
 function narcissistic(value) { 
 	
-	const arrFromValue = String(value).split(''); 
+  const arrFromValue = String(value).split(''); 
 
-	const degree = arrFromValue.length;
+  const degree = arrFromValue.length;
 
-	const sum = arrFromValue.reduce((acc, item) => {
-		return acc + Math.pow(item, degree);
-	}, 0); 
+  const sum = arrFromValue.reduce((acc, item) => {
+    return acc + Math.pow(item, degree);
+  }, 0); 
 	
-	return sum === value ? true : false; 
+  return sum === value ? true : false; 
 }
 							</pre
 							>

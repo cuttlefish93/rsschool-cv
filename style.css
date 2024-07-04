@@ -366,3 +366,130 @@ html {
 	width: 100px;
 	background-size: contain;
 }
+
+@media (max-width: 930px) {
+	.code__example {
+		font-size: 10px;
+	}
+}
+
+@media (max-width: 800px) {
+	.main__aside {
+		width: 40%;
+	}
+
+	.main__content {
+		width: 60%;
+	}
+
+	.introduction {
+		padding: 20px;
+	}
+
+	.about {
+		padding: 20px 20px 0 20px;
+	}
+
+	.code {
+		padding: 20px 20px 0 20px;
+	}
+
+	.projects {
+		padding: 20px 20px 0 20px;
+	}
+
+	.skills {
+		padding: 20px;
+	}
+
+	.projects__container {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media (max-width: 650px) {
+	.header {
+		padding: 20px;
+	}
+
+	.nav__list {
+		flex-direction: column;
+		gap: 20px;
+		align-items: center;
+	}
+
+	.main {
+		flex-direction: column;
+		position: relative;
+		padding-top: 320px;
+		background-color: var(--color-light);
+	}
+
+	.main__aside {
+		width: 100%;
+		order: 2;
+	}
+
+	.main__content {
+		width: 100%;
+		order: 1;
+	}
+
+	.avatar {
+		position: absolute;
+		top: 20px;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 300px;
+		height: 300px;
+		object-fit: cover;
+		border-radius: 50%;
+	}
+
+	.introduction {
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	.about {
+		text-align: center;
+	}
+
+	.code__title {
+		text-align: center;
+	}
+
+	.projects__title {
+		text-align: center;
+	}
+
+	.skills__title {
+		text-align: center;
+	}
+
+	.skills__list {
+		justify-content: center;
+	}
+
+	.title--content {
+		color: var(--color-light);
+		background-color: var(--color-grey);
+		padding: 10px 0;
+		border-bottom: none;
+	}
+
+	.title--aside {
+		color: var(--color-grey);
+		background-color: var(--color-yellow);
+		padding: 10px 0 10px 20px;
+		border-bottom: none;
+	}
+
+	.education__title {
+		margin-left: 0;
+	}
+
+	.languages__title {
+		margin-left: 0;
+	}
+}
