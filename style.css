@@ -77,8 +77,15 @@ html {
 }
 
 .header {
-	padding: 20px;
+	padding: 0 20px;
 	background-color: var(--color-green);
+	min-height: 80px;
+	display: flex;
+	align-items: center;
+}
+
+.nav {
+	width: 100%;
 }
 
 .nav__list {
@@ -99,6 +106,7 @@ html {
 
 .main {
 	display: flex;
+	min-height: calc(100vh - 160px);
 }
 
 .main__aside {
@@ -328,6 +336,7 @@ html {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	min-height: 80px;
 }
 
 .footer__links {
