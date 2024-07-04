@@ -1,16 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>CV - Begimkulova Kamila</title>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="images/favicon-16x16.png"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="normalize.css" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>CV - Begimkulova Kamila</title>
-	<link rel="stylesheet" href="normalize.css">
-	<link rel="stylesheet" href="style.css">
-</head>
+	<body class="cv">
+		<div class="cv__content">
+			<header class="header cv__header">
+				<nav class="nav header__nav">
+					<ul class="nav__list">
+						<li class="nav__list-item">
+							<a href="#about" class="nav__link">About me</a>
+						</li>
+						<li class="nav__list-item">
+							<a href="#education" class="nav__link">Education</a>
+						</li>
+						<li class="nav__list-item">
+							<a href="#skills" class="nav__link">Skills</a>
+						</li>
+						<li class="nav__list-item">
+							<a href="#projects" class="nav__link">Projects</a>
+						</li>
+						<li class="nav__list-item">
+							<a href="#contacts" class="nav__link">Contacts</a>
+						</li>
+					</ul>
+				</nav>
+			</header>
 
-<body>
+			<main class="main cv__main">
+				<aside class="aside main__aside">
+					<img src="images/avatar.jpg" alt="Person photo" class="avatar" />
 
-</body>
+					<div class="education" id="education">
+						<h2 class="title title--aside education__title">Education</h2>
+						<ul class="education__list">
+							<li class="education__list-item">
+								<a
+									href="https://www.art-gzhel.ru/"
+									class="education__link"
+									target="_blank"
+								>
+									<span>Gzhelsky State University</span>
+									<span class="education__link-info">undergraduate degree</span>
+								</a>
+							</li>
+							<li class="education__list-item">
+								<a
+									href="https://ru.hexlet.io/programs/frontend"
+									class="education__link"
+									target="_blank"
+									>Hexlet school</a
+								>
+							</li>
+							<li class="education__list-item">
+								<a
+									href="https://practicum.yandex.ru/frontend-developer/"
+									class="education__link"
+									target="_blank"
+									>Yandex Practicum</a
+								>
+							</li>
+						</ul>
+					</div>
 
+					<div class="languages">
+						<h2 class="title title--aside languages__title">Languages</h2>
+						<ul class="languages__list">
+							<li class="languages__list-item">
+								<span class="languages__name">Russian</span>
+								<span class="languages__level">native</span>
+							</li>
+							<li class="languages__list-item">
+								<span class="languages__name">Uzbek</span>
+								<span class="languages__level">native</span>
+							</li>
+							<li class="languages__list-item">
+								<span class="languages__name">English</span>
+								<span class="languages__level">C1</span>
+							</li>
+							<li class="languages__list-item">
+								<span class="languages__name">Korean</span>
+								<span class="languages__level">Elementary A1</span>
+							</li>
+						</ul>
+					</div>
+
+					<div class="contacts" id="contacts">
+						<ul class="contacts__list">
+							<li class="contacts__list-item">
+								<span class="contacts__list-title">Location</span
+								><a
+									href="https://www.google.com/maps/place/%D0%A2%D0%B0%D1%88%D0%BA%D0%B5%D0%BD%D1%82,+%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD/@41.2827379,69.1145532,11z/data=!3m1!4b1!4m6!3m5!1s0x38ae8b0cc379e9c3:0xa5a9323b4aa5cb98!8m2!3d41.2994958!4d69.2400734!16zL20vMGZzbXk?entry=ttu"
+									class="contacts__link"
+									target="_blank"
+									>Tashkent, Uzbekistan</a
+								>
+							</li>
+							<li class="contacts__list-item">
+								<span class="contacts__list-title">Phone</span
+								><a href="tel:+998338802656" class="contacts__link"
+									>+998 33 880 26 56</a
+								>
+							</li>
+							<li class="contacts__list-item">
+								<span class="contacts__list-title">Email</span
+								><a href="mailto:cuttlefish93@gmail.com" class="contacts__link"
+									>cuttlefish93@gmail.com</a
+								>
+							</li>
+							<li class="contacts__list-item">
+								<span class="contacts__list-title">Github</span
+								><a
+									href="https://github.com/cuttlefish93"
+									target="_blank"
+									class="contacts__link"
+									>cuttlefish93</a
+								>
+							</li>
+						</ul>
+					</div>
+				</aside>
+
+				<div class="content main__content">
+					<div class="introduction">
+						<h1 class="introduction__title">
+							<span class="introduction__name">Kamila</span>Begimkulova
+						</h1>
+						<p class="introduction__job">Frontend Developer</p>
+					</div>
+
+					<div class="about" id="about">
+						<h2 class="title title--content about__title">About Me</h2>
+						<p class="about__info">
+							I'm an empathic and friendly person. I love working in a team,
+							solving interesting problems and creating cool products. I always
+							try to develop myself and learn new things.
+						</p>
+					</div>
+
+					<div class="code">
+						<h2 class="title title--content code__title">Code example</h2>
+						<pre class="code__example">
+								<code class="code__content">
+  function narcissistic(value) { 
+    const arrFromValue = String(value).split(''); 
+    const degree = arrFromValue.length; 
+    const sum = arrFromValue.reduce((acc, item) => { 
+      return acc + Math.pow(item, degree); 
+    }, 0); 
+    return sum === value ? true : false; 
+  }
+						</code>
+							</pre>
+					</div>
+
+					<div class="projects" id="projects">
+						<h2 class="title title--content projects__title">Projects</h2>
+						<div class="projects__container">
+							<a
+								class="project"
+								href="https://github.com/cuttlefish93/cps-web-core-5.1.5"
+								target="_blank"
+							>
+								<img
+									src="images/cps.png"
+									alt="CPS project cover"
+									class="project__cover"
+								/>
+								<h4 class="project__name">CPS landing</h4>
+							</a>
+							<a
+								class="project"
+								href="https://github.com/cuttlefish93/newsanalyzer"
+								target="_blank"
+							>
+								<img
+									src="images/news-analyzer.png"
+									alt="News analyzer project cover"
+									class="project__cover"
+								/>
+								<h4 class="project__name">News analyzer</h4>
+							</a>
+						</div>
+					</div>
+
+					<div class="skills" id="skills">
+						<h2 class="title title--content skills__title">Skills</h2>
+						<ul class="skills__list">
+							<li class="skills__list-item skills__list-item--1">HTML</li>
+							<li class="skills__list-item skills__list-item--2">CSS, SASS</li>
+							<li class="skills__list-item skills__list-item--2">SASS</li>
+							<li class="skills__list-item skills__list-item--3">Javascript</li>
+							<li class="skills__list-item skills__list-item--4">Git</li>
+							<li class="skills__list-item skills__list-item--5">Wepback</li>
+							<li class="skills__list-item skills__list-item--5">Gulp</li>
+						</ul>
+					</div>
+				</div>
+			</main>
+
+			<footer class="footer cv__footer">
+				<p class="copyright">&copy; 2024</p>
+				<div class="footer__links">
+					<a
+						href="https://github.com/cuttlefish93"
+						class="footer__link footer__link--gh"
+						target="_blank"
+					></a>
+					<a
+						href="https://rs.school/courses/javascript-preschool-ru"
+						class="footer__link footer__link--rs"
+						target="_blank"
+					></a>
+				</div>
+			</footer>
+		</div>
+	</body>
 </html>
